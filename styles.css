@@ -50,6 +50,10 @@ body {
     font-weight: 900;
 }
 
+#hero-secondary {
+    margin-bottom: 20px;
+}
+
 #hero-section img {
     width: 540px;
 }
@@ -60,10 +64,10 @@ body {
     font-weight: bold;
     font-size: 18px;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 #hero-btn {
-    margin-top: 15px;
     padding: 8px 35px;
     border: none;
 }
