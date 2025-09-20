@@ -50,15 +50,18 @@ body {
     width: 540px;
 }
 
-#hero-btn {
+#hero-btn, #cta-btn {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 8px 35px;
-    margin-top: 15px;
-    border: none;
-    font-size: 18px;
     font-weight: bold;
+    font-size: 18px;
     border-radius: 8px;
+}
+
+#hero-btn {
+    margin-top: 15px;
+    padding: 8px 35px;
+    border: none;
 }
 
 #info-section {
@@ -115,6 +118,36 @@ body {
     text-align: end;
     font-weight: bold;
     font-size: 24px;
+}
+
+#cta-section {
+    padding: 100px 430px;
+}
+
+#cta-container {
+    background-color: #3882F6;
+    padding: 50px 125px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cta-header {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#cta-info {
+    color: #E5E7EB;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#cta-btn {
+    border: 2px solid white;
+    padding: 6px 35px;
 }
 
 footer {
