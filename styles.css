@@ -60,3 +60,39 @@ body {
     font-weight: bold;
     border-radius: 8px;
 }
+
+#info-section {
+    padding: 50px 500px;
+    text-align: center;
+}
+
+#info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.flex-container {
+    display: flex;
+    gap: 30px 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.flex-item {
+    width: 175px;
+}
+
+.flex-item img {
+    width: 100%;
+    height: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    margin-bottom: 4px;
+}
+
+.flex-item p {
+    color: dimgray;
+    font-size: 18px;
+}
