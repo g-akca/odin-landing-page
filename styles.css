@@ -96,3 +96,23 @@ body {
     color: dimgray;
     font-size: 18px;
 }
+
+#quote-section {
+    background-color: #E5E7EB;
+    padding: 125px 565px;
+}
+
+#quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#quotation {
+    margin-right: 25px;
+    color: #1F2937;
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
+}
