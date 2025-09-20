@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,6 +14,8 @@ body {
     align-items: center;
     padding: 20px 430px;
     background-color: #1F2937;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-logo {
@@ -30,13 +33,14 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
+    text-decoration: none;
 }
 
 #hero-section {
     display: flex;
     align-items: center;
     gap: 50px;
-    padding: 50px 430px 100px;
+    padding: 120px 430px 100px;
     background-color: #1F2937;
 }
 
